@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <title>CV card</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="flex_container">
+
+            <section class="section1">
+
+                <h1 class="section1_title">Alma Hedegaard</h1>
+
+                <div class="section1_info">
+
+                    <div class="section1_row1">
+
+                        <div class="section1_card">
+                            <img class="section1_img" src="images/briefcase.svg" alt="occupation">
+                            <h4 class="section1_title1">Occupation</h4>
+                            <p class="section1_item">Sales Manager</p>
+                        </div>
+
+                        <div class="section1_card">
+                            <img class="section1_img" src="images/location.svg" alt="location">
+                            <h4 class="section1_title1">Location</h4>
+                            <p class="section1_item">Copenhagen, Denmark</p>
+                        </div>
+                    </div>
+
+                    <div class="section1_row2">
+
+                        <div class="section1_card">
+                            <img class="section1_img" src="images/person.svg" alt="person">
+                            <h4 class="section1_title1">Age</h4>
+                            <p class="section1_item">44</p>
+                        </div>
+
+                        <div class="section1_card">
+                            <img class="section1_img" src="images/home.svg" alt="home">
+                            <h4 class="section1_title1">Family</h4>
+                            <p class="section1_item">Married. 2 children.</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="section1_tech">
+
+                    <h2 class="title_tech">Tech</h2>
+
+                    <p class="section1_text">Internet</p>
+                    <p class="section1_text">Social Media</p>
+                    <p class="section1_text">Online Shopping</p>
+
+                </div>
+
+            </section>
+
+            <section class="section2">
+
+                <div class="section2_item">
+                    <h2 class="section2_title">Biography</h2>
+                    <p class="section2_text">Alma and her husband have 2 kids: a teenager and a 9-year-old. Now they can focus more on their carreers but their main worry is about their sons education and health. With a busy week days, the time they can really get togther as
+                        a family is during the dinners time and weekends. So their meal is a really special part of their days. She loves to use avocados in her diet. Interested in gardening.
+                    </p>
+                </div>
+
+                <div class="section2_item">
+                    <h2 class="section2_title">Needs</h2>
+                    <ul class="section2_type">
+                        <li class="section2_list">Be ready for holiday family gathering as well as for light dinner &nbsp; during the day.</li>
+                        <li class="section2_list">Find balance between feeling good about herself, being able &nbsp; &nbsp; &nbsp; to maintain her lifestyle, while contributing with the world.</li>
+                        <li class="section2_list">Wise choices of the brands and respect to environment and &nbsp; &nbsp; &nbsp; sustainability is fundamental for her.
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="section2_item">
+                    <h2 class="section2_title">Pain points</h2>
+                    <p class="section2_text">Alma need to find flexible solution that can help her to optimize her time while dedicating herself to her carreer, kids and making sure to maintain a health lifestyle.
+                    </p>
+                </div>
+
+            </section>
+
+            <section class="section3">
+
+                <img class="section3_img" src="images/woman-in-kitchen.png" alt="woman_in_kitchen">
+                <p class="section3_text">“It is very important for me to have fresh, tasty products at hand.” </p>
+
+            </section>
+
+        </div>
+    </div>
+</body>
+
+</html>
