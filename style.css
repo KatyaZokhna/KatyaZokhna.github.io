@@ -1,0 +1,158 @@
+* {
+    margin: 0 auto;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Inter', sans-serif;
+}
+
+.container {
+    max-width: 1680px;
+    background-color: black;
+}
+
+.flex_container {
+    display: flex;
+    justify-content: center;
+    vertical-align: middle;
+}
+
+.section1 {
+    max-width: 460px;
+    margin: 90px 51px 125px 99px;
+}
+
+.section1_title {
+    font-weight: 600;
+    font-size: 75px;
+    line-height: 75px;
+    color: #FFFFFF;
+    margin-bottom: 65px;
+}
+
+.section1_info {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 45px;
+}
+
+.section1_row1,
+.section1_row2 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-start;
+    margin-left: 0;
+}
+
+.section1_row1 {
+    margin-bottom: 28px;
+}
+
+.section1_card {
+    display: block;
+    width: 206px;
+}
+
+.section1_title1 {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.6;
+}
+
+.section1_item {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+}
+
+.title_tech {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 15px;
+}
+
+.section1_text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.section1_text::after {
+    content: url(images/bar.svg);
+}
+
+.section2 {
+    max-width: 461px;
+    max-height: 635px;
+    margin: 47px 0 118px 0;
+}
+
+.section2_title {
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.9;
+    margin-bottom: 15px;
+    margin-top: 50px;
+}
+
+.section2_text {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+}
+
+.section2_text:last-child {
+    margin-bottom: 45px;
+}
+
+.section2_list {
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 25px;
+    color: #FFFFFF;
+    opacity: 0.8;
+    margin-bottom: 10px;
+    list-style: none;
+    position: static;
+}
+
+.section2_list::before {
+    content: url(images/Ellipse\ 1.svg);
+    position: relative;
+    bottom: 3px;
+    margin-right: 5px;
+}
+
+.section3 {
+    max-width: 460px;
+    margin: 50px 100px 50px 49px;
+}
+
+.section3_img {
+    position: relative;
+}
+
+.section3_text {
+    position: absolute;
+    font-weight: 600;
+    font-size: 30px;
+    line-height: 35px;
+    color: #FFFFFF;
+    width: 360px;
+    left: 1170px;
+    bottom: 125px;
+}
